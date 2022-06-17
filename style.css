@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 50px;
+  padding: 10px 40px;
+}
+section {
+  padding: 80px 0;
+}
+.purple-bg {
+  background-color: #666ca7;
+  text-align: center;
+  color: white;
+}
+
+.purple-bg h1 {
+  font-size: 120px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+
+.purple-bg p {
+  padding: 0 200px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.purple-bg .btn:hover {
+  background-color: rgb(216, 210, 210);
+}
+
+.secondary {
+  padding: 20px 100px;
+}
+.secondary .secondary-elements,
+.secondary img {
+  display: inline-block;
+}
+.secondary .secondary-elements {
+  width: 50%;
+  text-align: center;
+}
+.secondary img {
+  width: 300px;
+  float: right;
+}
+
+.secondary .box-lists p {
+  display: inline;
+  padding-right: 50px;
+}
